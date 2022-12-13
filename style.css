@@ -13,7 +13,7 @@
         --second-bg-color: #202020;
         --text-color: #fff;
         --second-color: #ccc;
-        --main-color: #ff4d05;
+        --main-color: darkgreen;
         --big-font: 5rem;
         --h2-font: 3rem;
         --p-font: 1.1rem;
@@ -166,9 +166,13 @@
     
     .btn2 {
         display: inline-flex;
-        align-items: center;
+        padding: 12px 28px;
+        background: darkblue;
+        border-radius: 5px;
+        color: var(--text-color);
+        font-size: 1rem;
+        letter-spacing: 1px;
         justify-content: center;
-        font-size: 15px;
         font-weight: 600;
         color: var(--text-color);
         margin-left: 35px;
